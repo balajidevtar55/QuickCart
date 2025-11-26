@@ -15,11 +15,11 @@ function App() {
          <Navbar />
 
       <Routes>
-        <Route path="/customer-dashboard" element={<ProductList />} />
+        <Route path="/" element={<ProductList />} />
         <Route path="/addproduct" element={<ProductAdd />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={<CustomerDashboard />} />
+        <Route path="/customer-dashboard" element={<CustomerDashboard />} />
 
       
 
